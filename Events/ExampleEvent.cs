@@ -18,8 +18,8 @@ namespace Events
     {
         /// <summary>
         /// Jediným parametrem předávaným ExampleEventArgs
-        /// je nějaké číslo, v našem případě půjde o hodotu Value objektu,
-        /// jterý vyvolal událost
+        /// je nějaké číslo, v našem případě půjde o hodnotu Value objektu,
+        /// který vyvolal událost
         /// </summary>
         /// <param name="value">Předávaný parametr</param>
         public ExampleEventArgs(int value)
