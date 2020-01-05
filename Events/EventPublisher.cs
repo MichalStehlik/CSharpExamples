@@ -26,7 +26,8 @@ namespace Events
             set 
             {
                 _value = value;
-                if (ValueHasChanged != null) ValueHasChanged(this, new ExampleEventArgs(value));
+                // if (ValueHasChanged != null) ValueHasChanged(this, new ExampleEventArgs(value)); // starší forma zápisu
+                ValueHasChanged?.Invoke(this, new ExampleEventArgs(value));
             }
         }
         /// <summary>
