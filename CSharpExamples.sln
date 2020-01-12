@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{F84697A5-4C24-4A26-ACC1-67EC62825EE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "Events\Events.csproj", "{F84697A5-4C24-4A26-ACC1-67EC62825EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{14A28397-5E59-4794-AEBA-5E1036D6EF50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F84697A5-4C24-4A26-ACC1-67EC62825EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F84697A5-4C24-4A26-ACC1-67EC62825EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F84697A5-4C24-4A26-ACC1-67EC62825EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A28397-5E59-4794-AEBA-5E1036D6EF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A28397-5E59-4794-AEBA-5E1036D6EF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A28397-5E59-4794-AEBA-5E1036D6EF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A28397-5E59-4794-AEBA-5E1036D6EF50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
