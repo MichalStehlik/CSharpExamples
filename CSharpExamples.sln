@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "Events\Events.csproj", "{F84697A5-4C24-4A26-ACC1-67EC62825EE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{14A28397-5E59-4794-AEBA-5E1036D6EF50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq", "Linq\Linq.csproj", "{14A28397-5E59-4794-AEBA-5E1036D6EF50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{063FD4BF-79CA-4E5F-8F72-CD1D249E29ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{14A28397-5E59-4794-AEBA-5E1036D6EF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14A28397-5E59-4794-AEBA-5E1036D6EF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14A28397-5E59-4794-AEBA-5E1036D6EF50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063FD4BF-79CA-4E5F-8F72-CD1D249E29ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063FD4BF-79CA-4E5F-8F72-CD1D249E29ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063FD4BF-79CA-4E5F-8F72-CD1D249E29ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063FD4BF-79CA-4E5F-8F72-CD1D249E29ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
